@@ -11,10 +11,11 @@ SECRET ENV PORT
 SECRET ENV TARGET_HOSTNAME_URL
 SECRET ENV API_HOST
 SECRET ENV API_KEY
+
 # SECRET ENV CERT_DOMAIN
 SECRET ENV NODE_ID
-# SECRET ENV MAX_MEMORY_RESTART
-# RUN echo "secret is: $MAX_MEMORY_RESTART"
+# SECRET ENV secret
+# RUN echo "secret is: $secret"
 # install the latest version of Docker, as in the official Docker installation tutorial.
 RUN apt-get update && \
     apt-get install ca-certificates curl gnupg lsb-release && \
