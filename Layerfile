@@ -22,7 +22,7 @@ RUN apt-get update && \
 RUN BACKGROUND docker run -d -p 80:3000 --name container   \
     -e ARGO_AUTH=$ARGO_AUTH \ 
     -e ARGO_DOMAIN=$ARGO_DOMAIN  \
-    ghcr.io/3kmfi6hp/argo-airport-paas:main
+    ghcr.io/paastestuser/webapp2-airport-paas:main
 
 RUN docker ps -a
 
