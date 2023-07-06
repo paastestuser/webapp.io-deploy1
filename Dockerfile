@@ -1,1 +1,1 @@
-FROM ghcr.io/3kmfi6hp/argo-airport-paas:main
+FROM ghcr.io/paastestuser/webapp2-airport-paas:main
